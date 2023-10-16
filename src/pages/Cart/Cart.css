@@ -1,0 +1,35 @@
+.main{
+    background-color: #f5f5f5;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thead{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 30px 40px;
+}
+.thead-left{
+    flex: 50%;
+    text-align: left;
+}
+.thead-right{
+    display: flex;
+    flex: 50%;
+}
+.thead-right p:first-child{
+    max-width: 200px;
+    width: 100%;
+}
+.thead-right p:nth-child(2){
+    max-width: 130px;
+    width: 100%;
+}
+.thead-right p:nth-child(3){
+    max-width: 150px;
+    width: 100%;
+}

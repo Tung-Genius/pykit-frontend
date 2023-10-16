@@ -1,0 +1,55 @@
+.outstanding-product{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.outstanding-product .heading{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.outstanding-list{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Phần tổng container của phân trang */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 40px;
+  }
+  
+  /* Các nút trang */
+  .pagination li {
+    padding: 3px 16px;
+    border-radius: 3px;
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #939393;
+  }
+  
+  /* Nút trang hiện tại */
+  .pagination li.active {
+    color: #fff;
+    background-color: #f8492e;
+  }

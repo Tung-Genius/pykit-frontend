@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.container h2{
+    margin-bottom: 20px;
+}
+.container a{
+    display: block;
+    text-decoration: none;
+    text-align: left;
+}
+.customer-care{
+    padding: 20px;
+}
+.about-myweb{
+    padding: 20px;
+}

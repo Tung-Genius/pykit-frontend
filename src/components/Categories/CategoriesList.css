@@ -1,0 +1,16 @@
+.categories-list{
+    width: 100%;
+    max-width: 1200px;
+    /* width: 1200px; */
+    background-color: #fff;
+    padding: 20px 0;
+}
+.categories-list h2{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.categories-list .list .swiper{
+    /* border: 1px solid; */
+}

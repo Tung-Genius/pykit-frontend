@@ -1,0 +1,35 @@
+.category-card{
+    width: 120px;
+    height: 150px;
+    border: 1px solid #f1f5f8;
+}
+.category-card:hover{
+    border-left: 2px solid #e9ecee;
+    border-right: 2px solid #e9ecee;
+}
+.category-card .top{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category-card .top .container-img{
+    width: 60px;
+    height: 60px;
+    padding: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f5f8;
+}
+.category-card .top .container-img img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.category-card .name{
+    color: black;
+}
